@@ -1837,9 +1837,13 @@ header .icon.circled {
 
 /* Header */
 
+#logo {
+	background: rgba(250, 112, 112, 0.2)
+}
+
 #header {
 	position: relative;
-	background-image: url("../../images/header.jpg");
+	background-image: url("../../images/blurred-background-cellphone-communication-1092671.jpg");
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
@@ -1847,6 +1851,11 @@ header .icon.circled {
 	text-align: center;
 	padding: 7.5em 0 2em 0;
 	cursor: default;
+}
+
+#intro {
+	background: rgba(250, 112, 112, 0.2);
+	width: 100%;
 }
 
 #header:before {
@@ -1950,9 +1959,10 @@ body.homepage.is-preload #header:after {
 	left: 0;
 	width: 100%;
 	text-align: center;
-	padding: 1.5em 0 1.5em 0;
+	padding: .5em 0 .5em 0;
 	z-index: 1;
 	overflow: hidden;
+	background: rgba(243, 121, 121, 0.497)
 }
 
 #nav>ul {
@@ -2408,12 +2418,9 @@ body.homepage.is-preload #header:after {
 	/* Image */
 	.image.featured {
 		margin: 0 0 3em 0;
-		width: 
-		height:  
-		background-repeat: no-repeat;
+		width: height: background-repeat: no-repeat;
 		background-size: ;
 	}
-
 	.image.left {
 		margin: 0 1em 1em 0;
 	}
